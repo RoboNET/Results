@@ -9,7 +9,7 @@
         <Nullable>enable</Nullable>
         <IsPackable>true</IsPackable>
         <PackageId>RoboNet.Results</PackageId>
-        <Version>0.1.1</Version>
+        <Version>0.1.2</Version>
         <Authors>Mikhail Korolev (RoboNet)</Authors>
         <RepositoryUrl>https://github.com/RoboNET/Results.git</RepositoryUrl>
         <RepositoryType>git</RepositoryType>

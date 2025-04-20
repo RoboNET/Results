@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <IsPackable>true</IsPackable>
+        <PackageId>RoboNet.Results</PackageId>
+        <Version>0.1.0</Version>
+        <Authors>Mikhail Korolev (RoboNet)</Authors>
+        <RepositoryUrl>https://github.com/RoboNET/Results.git</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <Description>Results pattern implementation</Description>
+        <PackageTags>result option</PackageTags>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
+        <IncludeSymbols>true</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <NoWarn>$(NoWarn);1591</NoWarn>
+
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\analyzers\RoboNet.Results.Analyzers\RoboNet.Results.Analyzers\RoboNet.Results.Analyzers.csproj" />
+
+        <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+
+    </ItemGroup>
+
+    <ItemGroup Label="Package meta">
+        <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+        <None Include="..\..\LICENSE.md" Pack="true" PackagePath="\" />
+    </ItemGroup>
+
+</Project>

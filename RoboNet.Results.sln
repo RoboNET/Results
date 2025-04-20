@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoboNet.Results", "src\RoboNet.Results\RoboNet.Results.csproj", "{2ED5FE68-62BC-4E50-A8D4-06455D0C07E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8490B460-B0BE-4DD3-88CE-E73E1F99A14A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoboNet.Results.Analyzers", "analyzers\RoboNet.Results.Analyzers\RoboNet.Results.Analyzers\RoboNet.Results.Analyzers.csproj", "{247A7797-3F95-4213-B5EC-F2B6E6B24389}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "analyzers", "analyzers", "{72AB2911-C29B-4F68-9E9B-FA1D18D2AEF8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2ED5FE68-62BC-4E50-A8D4-06455D0C07E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ED5FE68-62BC-4E50-A8D4-06455D0C07E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ED5FE68-62BC-4E50-A8D4-06455D0C07E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ED5FE68-62BC-4E50-A8D4-06455D0C07E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{247A7797-3F95-4213-B5EC-F2B6E6B24389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{247A7797-3F95-4213-B5EC-F2B6E6B24389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{247A7797-3F95-4213-B5EC-F2B6E6B24389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{247A7797-3F95-4213-B5EC-F2B6E6B24389}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2ED5FE68-62BC-4E50-A8D4-06455D0C07E3} = {8490B460-B0BE-4DD3-88CE-E73E1F99A14A}
+		{247A7797-3F95-4213-B5EC-F2B6E6B24389} = {72AB2911-C29B-4F68-9E9B-FA1D18D2AEF8}
+	EndGlobalSection
+EndGlobal
